@@ -6,4 +6,4 @@ This repository is for studing programing and git systems.
 - REDOME.md: this file.
 
 ### Python Code
-
+- test.py: test file
