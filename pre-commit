@@ -1,0 +1,16 @@
+#!/bin/sh
+
+prohabited_words_list=".git_prohibited_words"
+
+	for file in $(git diff --cached --name-only); do
+	if [ $file = ".git_prohabited_words" ]; then
+			continue
+		else
+			echo "aa"	
+		fi
+		echo $file
+		
+	done
+	:
+
+
